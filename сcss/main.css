@@ -1,13 +1,77 @@
+/*основний колір тексту #757575
+другорядний колір тексту #212121
+колір лого #2196F3#2196F3
+білий #2196F3
+другорядний колір фону #F5F4FA
+футтер #2F303A
+*/
 
 
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --bg-color: #F5F5F5;
+    --second-bg-color: #F5F4FA;
+    --footer-color: #2F303A;
 
 
+}
 
+body {
 
+    background-color: #F5F5F5;
+    color: var(--primary-text-color);
+}
 
+.list {
+    list-style: none;
+}
 
+/* h1,h2,h3,h4,h5,h6 {
+    color: #212121
+}*/
+/* _____________Logo________________ */
+.logo {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
 
+.logo-header {
+    color: var(--accent-color);
+}
 
+/* ____________site nav _____________*/
+.site-nav .link {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .current {
+    color: var(--accent-color);
+}
+
+/* ___________ authorisation ____________ */
+.auth-nav .link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* ___________________section_______________ */
+.section-title {
+    color: var(--title-text-color);
+}
 
 
 .feachers-list.title {
@@ -22,8 +86,10 @@
 .button {
     color: var(--title-text-color);
     background-color: var(--second-bg-color);
+    text-decoration: none;
     
 }
+
 .button.primery {
     color: var(--white-color);
     background-color: var(--accent-color);
@@ -31,4 +97,38 @@
 .button.secondary {
     color: var(--title-text-color);
     background-color: var(--second-bg-color);
+}
+
+/* .button.secondary:hover,
+.button.secondary:focus
+ {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+} */
+
+
+/*_____________________portfolio___________________*/
+
+.example .title {
+    color: var(--title-text-color);
+   
+}
+.example .link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+ .filter.button:hover,
+ .filter.button:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+
+}
+
+
+/*___________________footer_____________________*/
+
+.footer {
+    background-color: var(--footer-color);
+    /
 }
