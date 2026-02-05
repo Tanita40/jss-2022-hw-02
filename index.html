@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width= , initial-scale=1.0">
     <title>Studio</title>
-   
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="./сcss/main.css">
 </head>
 <body >
@@ -13,7 +19,7 @@
     <!-- шапка -->
     <header>
         <nav>
-            <a class="logo" href=""><span class="logo-header">Web</span>Studio</a>
+            <a class="logo" href="">Web<span class="header accent">Studio</span></a>
            
             <!-- <img src="./images/WebStudio.svg" alt="Логотип компанії"> -->
                 <ul class="site-nav list">
@@ -40,36 +46,37 @@
     <main>
         <div>
             <section>
-                <h1>Ефективні рішення для вашого бізнесу</h1>
+                <h1 class="hero title">Ефективні рішення для вашого бізнесу</h1>
                 <a href="" class="button primery">Замовити послугу</a>
         
             </section>
         </div>
         <!-- особливості -->
         <section class="section">
+            <h2>особливості</h2>
             <ul class="feachers-list list">
                 <li>
-                    <img src="./images/special/antenna 1.svg" alt="" width="70">
+                    <img src="./images/special/antenna.svg" alt="" width="70">
                     <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    <p class="text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
         
                 <li>
-                    <img src="./images/special/clock 1.svg" alt="" width="70">
+                    <img src="./images/special/clock.svg" alt="" width="70">
                     <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
-                    <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    <p class="text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
         
                 <li>
                     <img src="./images/special/Vector.svg" alt="" width="70">
                     <h3 class="title">ПЛАНУВАННЯ</h3>
-                    <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
         
                 <li>
-                    <img src="./images/special/astronaut 1.svg" alt="" width="70">
+                    <img src="./images/special/astronaut.svg" alt="" width="70">
                     <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    <p class="text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
         </section>
@@ -90,51 +97,56 @@
                 <li>
                     <img src="/images/Team/Ihor.jpg" alt="Ігор Дем'яненко" width="270">
                     <h3 class="title">Ігор Дем'яненко</h3>
-                    <p>Product Designer</p>
+                    <p class="text">Product Designer</p>
+                    <div>
+                        <ul class="list">
+                            <li>
+                                <a href="" aria-label="link instagram">
+                                    <img src="./images/Social_links/instagram.svg" alt="">
+                        
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" aria-label="link twitter">
+                                    <img src="./images/Social_links/twitter.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" aria-label="link facebook">
+                                    <img src="./images/Social_links/facebook.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" aria-label="link linkedin">
+                                    <img src="./images/Social_links/linkedin.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
-                <div>
-                <ul class="list">
-                    <li>
-                        <a href="" aria-label="link instagram">
-                            <img src="./images/Social_links/instagram.svg" alt="">
                 
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" aria-label="link twitter">
-                            <img src="./images/Social_links/twitter.svg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" aria-label="link facebook">
-                            <img src="./images/Social_links/facebook.svg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" aria-label="link linkedin">
-                            <img src="./images/Social_links/linkedin.svg" alt="">
-                        </a>
-                    </li>
-                </ul>
-                </div>
+                
+                
+                
+                
                
         
-                <li><img src="./images/Team/Olha.jpg" alt=Ольга Рєпіна" width="270">
+                <li><img src="./images/Team/Olha.jpg" alt="Ольга Рєпіна" width="270">
                     <h3 class="title" >Ольга Рєпіна</h3>
-                    <p>Frontend Developer</p>
+                    <p class="text">Frontend Developer</p>
                 </li>
                
                
         
-                <li class="title"><img src="./images/Team/Mikola.jpg" alt="Микола Тарасов" width="270">
-                    <h3>Микола Тарасов</h3>
-                    <p>Marketing</p>
+                <li><img src="./images/Team/Mikola.jpg" alt="Микола Тарасов" width="270">
+                    <h3 class="title">Микола Тарасов</h3>
+                    <p class="text">Marketing</p>
                 </li>
                 
         
-                <li class="title"><img src="./images/Team/Mihaylo.jpg" alt="Михайло Єрмаков" width="270">
-                    <h3>Михайло Єрмаков</h3>
-                    <p>UI Designer</p>
+                <li><img src="./images/Team/Mihaylo.jpg" alt="Михайло Єрмаков" width="270">
+                    <h3 class="title">Михайло Єрмаков</h3>
+                    <p class="text">UI Designer</p>
                 </li>
             </ul>
             
@@ -156,24 +168,26 @@
     <footer class="footer">
         <!--adress-->
         <div> 
-            <a class="logo" href=""><span class="logo-header">Web</span>Studio</a>
+            <a class="logo" href="">Web<span class="footer accent">Studio</span></a>
             
-            <address>
+            <address class="adress">
                 м. Київ,пр-т Лесі Українки, 26"
             
-            </address>
             
-            <address>
-                <a href="info@devstudio.com">info@devstudio.com</a>
-                <a href="+38 096 111 11 11">+38 096 111 11 11</a>
+            
+            
+                <a href="" class="kontakts link">info@devstudio.com</a>
+                <a href="" class="kontakts link">+38 096 111 11 11</a>
             </address>
         </div>
 
         <!--social links-->
-        <section>
+        <div>
             <b>приєднуйтесь</b>
+
+        </div>
             
-        </section>
+        
             
        
         
